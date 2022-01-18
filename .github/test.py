@@ -158,7 +158,7 @@ COMPREHENSIVE_THEME_DIRS = [
     "/openedx/ecommerce/ecommerce/themes",
 ]
 
-DEFAULT_SITE_THEME = "uabierta"
+DEFAULT_SITE_THEME = "norteamericano"
 
 ENTERPRISE_API_URL = urljoin(ENTERPRISE_SERVICE_URL, 'api/v1/')
 
