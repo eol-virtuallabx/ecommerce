@@ -42,7 +42,7 @@ RUN DJANGO_SETTINGS_MODULE=ecommerce.settings.assets make static
 
 # Copy EOL scripts
 ADD ./.github/tests.sh /openedx/ecommerce/tests.sh
-ADD ./.github/verify_and_do_boletas.sh /openedx/ecommerce/verify_and_do_boletas.sh
+# ADD ./.github/verify_and_do_boletas.sh /openedx/ecommerce/verify_and_do_boletas.sh
 
 EXPOSE 8000
 ENV DJANGO_SETTINGS_MODULE=ecommerce.settings.eol
